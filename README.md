@@ -45,7 +45,7 @@ Steps to install and run:
 Git:
 
 - git init .
-- git add . && git commit -m "c" && git push https://github.com/sreegithub19/serverless-adonis.git master
+- git add . && git commit -m "c" && git push origin master
 
 Vercel: (Reference: https://blog.matheus.io/en/serverless/serverless-adonis-in-zeit-now/)
 
