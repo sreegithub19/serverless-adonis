@@ -45,5 +45,10 @@ Steps to install and run:
 Git:
 
 - git init .
+- git add . && git commit -m "c" && git push https://github.com/sreegithub19/serverless-adonis.git master
+
+Vercel: (Reference: https://blog.matheus.io/en/serverless/serverless-adonis-in-zeit-now/)
 
 - npm i -g now
+- Create vercel.json and fill it accordingly ("@now/node-server" is not maintained. Please use "@vercel/node" instead.)
+- vercel && vercel --prod
