@@ -1,7 +1,7 @@
 var http = require('http');
 const { spawn } = require('child_process');
 
-http.createServer(function (req, res) {
+http.createServer(function (req:any, res:any) {
   res.writeHead(200, {'Content-Type': 'text/html'});
   //Return the url part of the request object:
   if(req.url=="/"){

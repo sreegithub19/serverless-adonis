@@ -7,6 +7,8 @@
     "dev": "echo \"\\033[31mWARN: 'dev' will be depreciated soon. Instead use 'npm run serve:dev'\" && npm run serve:dev",
     "serve:dev": "nodemon --watch app --watch bootstrap --watch config --watch .env -x node server.js",
     "serve": "node server.js",
+    "ts_serve": "ts-node server.ts",
+    "build": "tsc server.ts",
     "lint": "standard"
   },
   "author": "",
@@ -22,6 +24,8 @@
     "adonis-lucid": "^3.0.14",
     "adonis-middleware": "^1.0.11",
     "adonis-websocket": "^1.0.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4",
     "youch": "^2.0.4"
   },
   "standard": {

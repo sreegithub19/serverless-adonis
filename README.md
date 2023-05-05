@@ -45,10 +45,11 @@ Steps to install and run:
 Git:
 
 - git init .
-- git add . && git commit -m "c" && git push origin master
+- git add . && git commit -m "c" && git push origin typescript
 
 Vercel: (Reference: https://blog.matheus.io/en/serverless/serverless-adonis-in-zeit-now/)
 
 - npm i -g now
 - Create vercel.json and fill it accordingly ("@now/node-server" is not maintained. Please use "@vercel/node" instead.)
+- npm run build (git rm --cached server.js -> to reflect .gitignore on the file)
 - vercel && vercel --prod

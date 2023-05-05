@@ -3,5 +3,6 @@ storage
 !.gitkeep
 .env
 npm-debug.log
+server.js
 
 .vercel
